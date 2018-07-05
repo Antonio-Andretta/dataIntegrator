@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+	background-color:beige ;
+    border: 02px solid bisque ;
+    font-size: 25px ;
+    padding: 10px ;   
+}
+
+h2 {
+	background-color:beige ;
+    border: 00px solid bisque ;
+    font-size: 15px ;
+    padding: 10px ;
+}
+
+body {
+	font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;
+	background-color:white ;
+	margin: 0px auto;
+  
+    padding: 2em 2em 4em;
+	
+}
+
+.logcenter {
+	margin: 0px 0px 100px 100px ;
+	text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-bottom: 25px;
+}
+
+.loginForm {
+	text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0px 0
+}
+
+.ploginTitle {
+	text-align: center;
+}
+
+label {
+    padding: 1px 1px 1px 1px;
+    display: inline-block;
+}
+
+
+input[type=submit] {
+    background-color: beige;
+    color: black;
+    padding: 12px 20px;
+    border: 1px solid bisque;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+}
+
+input[type=submit]:hover {
+    background-color: burlywood;
+}
+
+input[type=text], select, textarea {
+    width: 30%;
+    padding: 8px 8px 8px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=password] {
+    width: 30%;
+   padding: 8px 8px 8px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    text-align: right;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.col-75 {
+   float: left;
+    width: 75%;
+    text-align: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.row{
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.luser{
+	float: right;
+	
+}
+.lpass{
+	float: right;
+}
+.plog{
+	align-items: flex-start;
+}
